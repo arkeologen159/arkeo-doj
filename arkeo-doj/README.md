@@ -11,4 +11,4 @@
 - Management : Justice management system (Justice finances, roster management etc)
 - Finances : player bank accounts, transactions etc will be here. Can be viewed only when warrants are approved, exported and sent to pd.
 
-- [More likely than not, will change this up to an MDT supporting DOJ & PD, all in one, view/permissions will depend on rank]
+- [More likely than not, will change this up to an MDT supporting DOJ & PD, all in one, view/permissions will depend on rank] For now it's just DOJ. (job Justice, 1 = Lawyer, 2 = Judge)
