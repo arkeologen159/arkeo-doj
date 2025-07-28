@@ -1,7 +1,7 @@
 -- [[TO DO
 -- Gonna change db table to leo_ ... or something similar. 
 -- Db table `players` is being overwritten by qbox resources thus deleting some info
--- ie: avatar's not persistent because of that
+-- ie: avatars are not persistent because of that
 -- ]]
 local chatMessages = {}
 local qbx          = exports.qbx_core
@@ -221,7 +221,7 @@ AddEventHandler('arkeo-doj:server:updateAvatar', function(data)
     end)
 end)
 
--- Expunge convictions // still needs work really 
+-- Expunge convictions // still needs work really, it's just here for the sake of it, will work on it once i finish the jailing & police scripts
 RegisterNetEvent('arkeo-doj:server:expungeCitizen')
 AddEventHandler('arkeo-doj:server:expungeCitizen', function(data)
     oxmysql:execute([[
