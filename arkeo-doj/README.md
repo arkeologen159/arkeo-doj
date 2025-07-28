@@ -5,6 +5,7 @@
 ## Summary 
 - Tabs system : just like on a browser
 - Dashboard : basic information displayed here (chat, profile info, search and statuses/employee list etc)
+- Chat section: you can @ (pd/lawyer/judge) and they will receive a notification [this helps getting in contact if yp ads are not up]
 - Citizens : A citizen tab where you'd see citizens + their profiles
 - Dockets : Court dockets will be listed here (templates, create dockets, view them etc)
 - Reports : might remove this tbh (or not? if I include pd and make it an all in one mdt, will not remove it)
