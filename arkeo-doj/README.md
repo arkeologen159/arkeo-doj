@@ -1,5 +1,6 @@
 ### DOJ MDT made with React / qbox.
 - Still under development (Dashboard & Citizen tabs fully work (or nearly, still tweaking here and there). Other views will be pushed once written)
+- Entire UI will change at some point once I decide on my vision for this mdt.
 
 ## Views 
 - Dashboard : basic information displayed here (chat, profile info, search and duty list etc)
