@@ -1,3 +1,8 @@
+-- [[TO DO
+-- Gonna change db table to leo_ ... or something similar. 
+-- Db table `players` is being overwritten by qbox resources thus deleting some info
+-- ie: avatar's not persistent because of that
+-- ]]
 local chatMessages = {}
 local qbx          = exports.qbx_core
 local oxmysql      = exports.oxmysql
