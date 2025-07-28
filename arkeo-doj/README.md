@@ -1,4 +1,4 @@
-### DOJ MDT made with React / qbox.
+### MDT made with React / qbox.
 - Still under development, only dashboar is done (or nearly) for now, other features will be added once finished
 ## Summary 
 - Tabs system : just like on a browser
