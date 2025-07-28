@@ -4,7 +4,7 @@ RegisterCommand('mdt', function()
     SendNuiMessage(json.encode({ type = 'setVisible', data = true }))
 end, false)
 
--- Helper function
+-- Helper fct
 local function forwardToServer(nuiEvent, srvEvent)
     RegisterNUICallback(nuiEvent, function(data, cb)
         TriggerServerEvent(srvEvent, data)
@@ -32,7 +32,7 @@ RegisterNUICallback('hideui', function(_, cb)
     cb({ status = 'ok' })
 end)
 
--- Helper nui to server
+-- Helper fct
 local function forwardToNui(evt, typ)
     RegisterNetEvent(evt)
     AddEventHandler(evt, function(payload)
