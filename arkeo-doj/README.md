@@ -10,5 +10,3 @@
 - Legislations : Penal code and other legislations can be modified here directly and sent back to pd (will be wired up at some point)
 - Management : Justice management system (Justice finances, roster management etc)
 - Finances : player bank accounts, transactions etc will be here. Can be viewed only when warrants are approved, exported and sent to pd.
-
-(Once everything is done, will most likely refactor everything)
