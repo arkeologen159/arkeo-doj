@@ -1,6 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
 
+
 author 'ArkeologeN'
 description 'DOJ Tablet'
 version '1.0.0'
@@ -35,3 +36,5 @@ files {
     'web/build/index.html',
     'web/build/**/*'
 } 
+
+Lua54 'yes'

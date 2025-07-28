@@ -1,17 +1,14 @@
-### MDT made with React / qbox.
-- Dashboard (some tweaks left) ✔️
-- Citizen (+ citizen profiles, some tweaks left) ✔️
-- Rest of tabs (under development) ✖️
-## Summary 
-- Tabs system : just like on a browser
-- Dashboard : basic information displayed here (chat, profile info, search and statuses/employee list etc)
-- Chat section: you can @ (pd/lawyer/judge) and they will receive a notification [this helps getting in contact if yp ads are not up]
-- Citizens : A citizen tab where you'd see citizens + their profiles
-- Dockets : Court dockets will be listed here (templates, create dockets, view them etc)
-- Reports : might remove this tbh (or not? if I include pd and make it an all in one mdt, will not remove it)
+### DOJ MDT made with React / qbox.
+### Dev roadmap
+- Finish the UI
+- Setup and wire DB.
+
+## Views 
+- Dashboard : basic information displayed here (chat, profile info, search and on duty ct)
+- Citizens : A citizen tab where you'd see server citizens + their profiles
+- Dockets : Every docket in the server will be listed here
+- Reports : might remove this tbh
 - Warrants : A warrant system will be in the mdt, justices will approve/deny warrants and send back to pd
 - Legislations : Penal code and other legislations can be modified here directly and sent back to pd (will be wired up at some point)
 - Management : Justice management system (Justice finances, roster management etc)
 - Finances : player bank accounts, transactions etc will be here. Can be viewed only when warrants are approved, exported and sent to pd.
-
-- [More likely than not, will change this up to an MDT supporting DOJ & PD, all in one, view/permissions will depend on rank] For now it's just DOJ. (job Justice, 1 = Lawyer, 2 = Judge)
