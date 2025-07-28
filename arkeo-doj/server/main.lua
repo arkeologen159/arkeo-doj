@@ -37,11 +37,20 @@ end)
 
 RegisterNetEvent('arkeo-doj:server:updateStatus')
 AddEventHandler('arkeo-doj:server:updateStatus', function(data)
-    local src = source
-    if data.status then
-        qbx:SetMetadata(src, 'status', data.status)
-    end
+    local src     = source
+    local newStat = data.status or ''
+
+    exports.oxmysql:execute([[
+      UPDATE players
+      SET metadata = JSON_SET(
+        metadata,
+        '$.status',
+        ?
+      )
+      WHERE citizenid = ?
+    ]], { newStat, src })
 end)
+
 
 RegisterNetEvent('arkeo-doj:server:search')
 AddEventHandler('arkeo-doj:server:search', function(data)
@@ -207,7 +216,7 @@ AddEventHandler('arkeo-doj:server:updateAvatar', function(data)
     end)
 end)
 
--- Expunge convictions // still needs work really, will properly work on it once police job & jail system is done
+-- Expunge convictions // still needs work really 
 RegisterNetEvent('arkeo-doj:server:expungeCitizen')
 AddEventHandler('arkeo-doj:server:expungeCitizen', function(data)
     oxmysql:execute([[
